@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/inktober-2021/static/css/main.c6d88d98.chunk.css",
+    "main.js": "/inktober-2021/static/js/main.74d8dc24.chunk.js",
+    "main.js.map": "/inktober-2021/static/js/main.74d8dc24.chunk.js.map",
+    "runtime-main.js": "/inktober-2021/static/js/runtime-main.48e36c59.js",
+    "runtime-main.js.map": "/inktober-2021/static/js/runtime-main.48e36c59.js.map",
+    "static/js/2.84271418.chunk.js": "/inktober-2021/static/js/2.84271418.chunk.js",
+    "static/js/2.84271418.chunk.js.map": "/inktober-2021/static/js/2.84271418.chunk.js.map",
+    "static/js/3.a5e6ea95.chunk.js": "/inktober-2021/static/js/3.a5e6ea95.chunk.js",
+    "static/js/3.a5e6ea95.chunk.js.map": "/inktober-2021/static/js/3.a5e6ea95.chunk.js.map",
+    "index.html": "/inktober-2021/index.html",
+    "static/css/main.c6d88d98.chunk.css.map": "/inktober-2021/static/css/main.c6d88d98.chunk.css.map",
+    "static/js/2.84271418.chunk.js.LICENSE.txt": "/inktober-2021/static/js/2.84271418.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/inktober-2021/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48e36c59.js",
+    "static/js/2.84271418.chunk.js",
+    "static/css/main.c6d88d98.chunk.css",
+    "static/js/main.74d8dc24.chunk.js"
+  ]
+}
