@@ -6,7 +6,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Crystal from "./pages/Crystal"
+import Crystal from "./pages/Crystal/Crystal"
+import Suit from "./pages/Suit/Suit"
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
     },
     {
       "title": "SUIT",
-      "url": ""
+      "url": "/suit"
     },
     {
       "title": "VESSEL",
@@ -145,6 +146,9 @@ function App() {
           <Switch>
             <Route path="/crystal">
               <Crystal/>
+            </Route>
+            <Route path="/suit">
+              <Suit/>
             </Route>
             <Route path="/">
               <ol>
