@@ -138,7 +138,7 @@ function App() {
   ]
 
   return (
-    <Router>
+    <Router basename="/codetober-2021">
       <div className="App">
         <div className="App-title"><Link to="/">Codetober 2021</Link></div>
         <div className="App-body">
