@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -138,7 +138,7 @@ function App() {
   ]
 
   return (
-    <Router basename="/codetober-2021">
+    <Router>
       <div className="App">
         <div className="App-title"><Link to="/">Codetober 2021</Link></div>
         <div className="App-body">
