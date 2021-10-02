@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/codetober-2021/static/css/main.6ee14bd7.chunk.css",
-    "main.js": "/codetober-2021/static/js/main.e246a0ec.chunk.js",
-    "main.js.map": "/codetober-2021/static/js/main.e246a0ec.chunk.js.map",
-    "runtime-main.js": "/codetober-2021/static/js/runtime-main.9bf8a556.js",
-    "runtime-main.js.map": "/codetober-2021/static/js/runtime-main.9bf8a556.js.map",
-    "static/js/2.3ff7739a.chunk.js": "/codetober-2021/static/js/2.3ff7739a.chunk.js",
-    "static/js/2.3ff7739a.chunk.js.map": "/codetober-2021/static/js/2.3ff7739a.chunk.js.map",
-    "static/js/3.ddf70068.chunk.js": "/codetober-2021/static/js/3.ddf70068.chunk.js",
-    "static/js/3.ddf70068.chunk.js.map": "/codetober-2021/static/js/3.ddf70068.chunk.js.map",
+    "main.css": "/codetober-2021/static/css/main.008f4c68.chunk.css",
+    "main.js": "/codetober-2021/static/js/main.c6852963.chunk.js",
+    "main.js.map": "/codetober-2021/static/js/main.c6852963.chunk.js.map",
+    "runtime-main.js": "/codetober-2021/static/js/runtime-main.76626962.js",
+    "runtime-main.js.map": "/codetober-2021/static/js/runtime-main.76626962.js.map",
+    "static/js/2.ae8af014.chunk.js": "/codetober-2021/static/js/2.ae8af014.chunk.js",
+    "static/js/2.ae8af014.chunk.js.map": "/codetober-2021/static/js/2.ae8af014.chunk.js.map",
+    "static/js/3.2bbb947a.chunk.js": "/codetober-2021/static/js/3.2bbb947a.chunk.js",
+    "static/js/3.2bbb947a.chunk.js.map": "/codetober-2021/static/js/3.2bbb947a.chunk.js.map",
     "index.html": "/codetober-2021/index.html",
-    "static/css/main.6ee14bd7.chunk.css.map": "/codetober-2021/static/css/main.6ee14bd7.chunk.css.map",
-    "static/js/2.3ff7739a.chunk.js.LICENSE.txt": "/codetober-2021/static/js/2.3ff7739a.chunk.js.LICENSE.txt"
+    "static/css/main.008f4c68.chunk.css.map": "/codetober-2021/static/css/main.008f4c68.chunk.css.map",
+    "static/js/2.ae8af014.chunk.js.LICENSE.txt": "/codetober-2021/static/js/2.ae8af014.chunk.js.LICENSE.txt",
+    "static/media/heart.ead2aeee.png": "/codetober-2021/static/media/heart.ead2aeee.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9bf8a556.js",
-    "static/js/2.3ff7739a.chunk.js",
-    "static/css/main.6ee14bd7.chunk.css",
-    "static/js/main.e246a0ec.chunk.js"
+    "static/js/runtime-main.76626962.js",
+    "static/js/2.ae8af014.chunk.js",
+    "static/css/main.008f4c68.chunk.css",
+    "static/js/main.c6852963.chunk.js"
   ]
 }
