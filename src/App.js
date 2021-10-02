@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Crystal from "./pages/Crystal/Crystal"
 import Suit from "./pages/Suit/Suit"
+import Vessel from "./pages/Vessel/Vessel"
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
     },
     {
       "title": "VESSEL",
-      "url": ""
+      "url": "/vessel"
     },
     {
       "title": "KNOT",
@@ -149,6 +150,9 @@ function App() {
             </Route>
             <Route path="/suit">
               <Suit/>
+            </Route>
+            <Route path="/vessel">
+              <Vessel/>
             </Route>
             <Route path="/">
               <ol>

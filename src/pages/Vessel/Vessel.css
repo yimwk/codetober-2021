@@ -1,0 +1,8 @@
+.heartbeat {
+    animation: heartbeat 1s infinite ease-in-out;
+}
+
+@keyframes heartbeat {
+    from { transform: scale(0.9); }
+    to { transform: scale(1); }
+}
