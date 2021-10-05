@@ -11,6 +11,7 @@ import Suit from "./pages/Suit/Suit"
 import Vessel from "./pages/Vessel/Vessel"
 import Knot from "./pages/Knot/Knot"
 import Raven from "./pages/Raven/Raven"
+import Spirit from "./pages/Spirit/Spirit"
 
 function App() {
 
@@ -37,7 +38,7 @@ function App() {
     },
     {
       "title": "SPIRIT",
-      "url": ""
+      "url": "/spirit"
     },
     {
       "title": "FAN",
@@ -161,6 +162,9 @@ function App() {
             </Route>
             <Route path="/raven">
               <Raven/>
+            </Route>
+            <Route path="/spirit">
+              <Spirit/>
             </Route>
             <Route path="/">
               <ol>

@@ -1,0 +1,121 @@
+.spirit {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hood {
+  font-size: 600px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 0.7em;
+  height: 1em;
+  border-bottom-left-radius: 1%;
+  border-bottom-right-radius: 1%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: black;
+}
+
+.face {
+  font-size: 450px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 0.8em;
+  height: 1em;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: white;
+  transform: translate(0%, -10%);
+}
+
+.eye {
+  font-size: 50px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 1.5em;
+  height: 1em;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: black;
+}
+
+.left-eye {
+  transform: translate(-100%, -250%);
+}
+
+.right-eye {
+  transform: translate(100%, -250%);
+}
+
+.eyebag {
+  font-size: 50px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 1.0em;
+  height: 0.1em;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: black;
+}
+
+.left-eyebag {
+  transform: translate(-150%, -1750%);
+}
+
+.right-eyebag {
+  transform: translate(150%, -1750%);
+}
+
+.mouth {
+  font-size: 50px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 2em;
+  height: 0.8em;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  background-color: black;
+  transform: translate(0%, 250%);
+}
+
+.face-paint {
+  font-size: 50px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 0.6em;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  background-color: rgb(171, 141, 169);
+}
+
+.face-paint-bottom-left {
+  height: 2.5em;
+  transform: translate(-250%, -10%);
+}
+
+.face-paint-bottom-right {
+  height: 2.5em;
+  transform: translate(250%, -10%);
+}
+
+.face-paint-top-left {
+  height: 1.3em;
+  transform: rotate(180deg) translate(-250%, 295%);
+}
+
+.face-paint-top-right {
+  height: 1.3em;
+  transform: rotate(180deg) translate(250%, 295%);
+}
