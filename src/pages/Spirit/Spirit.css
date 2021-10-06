@@ -3,6 +3,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+  animation: spirit-scare 0.05s linear forwards;
+  animation-iteration-count: 10;
+  animation-delay: 10s;
 }
 
 .hood {
@@ -118,4 +122,9 @@
 .face-paint-top-right {
   height: 1.3em;
   transform: rotate(180deg) translate(250%, 295%);
+}
+
+@keyframes spirit-scare {
+    from { opacity: 0; transform: scale(0.5); }
+    to { opacity: 1; transform: scale(1); }
 }
