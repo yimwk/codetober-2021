@@ -12,6 +12,7 @@ import Vessel from "./pages/Vessel/Vessel"
 import Knot from "./pages/Knot/Knot"
 import Raven from "./pages/Raven/Raven"
 import Spirit from "./pages/Spirit/Spirit"
+import Fan from "./pages/Fan/Fan"
 
 function App() {
 
@@ -42,7 +43,7 @@ function App() {
     },
     {
       "title": "FAN",
-      "url": ""
+      "url": "/fan"
     },
     {
       "title": "WATCH",
@@ -165,6 +166,9 @@ function App() {
             </Route>
             <Route path="/spirit">
               <Spirit/>
+            </Route>
+            <Route path="/fan">
+              <Fan/>
             </Route>
             <Route path="/">
               <ol>
