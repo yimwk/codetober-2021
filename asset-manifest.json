@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/codetober-2021/static/css/main.eb3ebe0b.chunk.css",
+    "main.css": "/codetober-2021/static/css/main.ca59949d.chunk.css",
     "main.js": "/codetober-2021/static/js/main.d122e5a4.chunk.js",
     "main.js.map": "/codetober-2021/static/js/main.d122e5a4.chunk.js.map",
     "runtime-main.js": "/codetober-2021/static/js/runtime-main.d3cdd91f.js",
@@ -10,14 +10,14 @@
     "static/js/3.1435e087.chunk.js": "/codetober-2021/static/js/3.1435e087.chunk.js",
     "static/js/3.1435e087.chunk.js.map": "/codetober-2021/static/js/3.1435e087.chunk.js.map",
     "index.html": "/codetober-2021/index.html",
-    "static/css/main.eb3ebe0b.chunk.css.map": "/codetober-2021/static/css/main.eb3ebe0b.chunk.css.map",
+    "static/css/main.ca59949d.chunk.css.map": "/codetober-2021/static/css/main.ca59949d.chunk.css.map",
     "static/js/2.d6435c43.chunk.js.LICENSE.txt": "/codetober-2021/static/js/2.d6435c43.chunk.js.LICENSE.txt",
     "static/media/heart.ead2aeee.png": "/codetober-2021/static/media/heart.ead2aeee.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d3cdd91f.js",
     "static/js/2.d6435c43.chunk.js",
-    "static/css/main.eb3ebe0b.chunk.css",
+    "static/css/main.ca59949d.chunk.css",
     "static/js/main.d122e5a4.chunk.js"
   ]
 }
