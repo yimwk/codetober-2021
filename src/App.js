@@ -14,6 +14,7 @@ import Raven from "./pages/Raven/Raven"
 import Spirit from "./pages/Spirit/Spirit"
 import Fan from "./pages/Fan/Fan"
 import Watch from "./pages/Watch/Watch"
+import Pressure from "./pages/Pressure/Pressure"
 
 function App() {
 
@@ -52,7 +53,7 @@ function App() {
     },
     {
       "title": "PRESSURE",
-      "url": ""
+      "url": "/pressure"
     },
     {
       "title": "PICK",
@@ -173,6 +174,9 @@ function App() {
             </Route>
             <Route path="/watch">
               <Watch/>
+            </Route>
+            <Route path="/pressure">
+              <Pressure/>
             </Route>
             <Route path="/">
               <ol>

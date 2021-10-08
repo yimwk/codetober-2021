@@ -1,0 +1,56 @@
+.balloon {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.balloon-round-part {
+    font-size: 600px;
+    position: absolute;
+    box-sizing: border-box;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: red;
+    animation: pumping-balloon 10s linear forwards;
+    transform-origin: right;
+}
+  
+.balloon-long-part {
+    font-size: 40px;
+    position: absolute;
+    box-sizing: border-box;
+    width: 3.5em;
+    height: 1em;
+    background-color: red;
+    transform: translate(230%, 0%);
+    border-right: solid 10px darkred;
+}
+
+.wind {
+    font-size: 200px;
+}
+
+.balloon .wind:nth-child(3n+1) {
+    transform: translate(350%, 0%);
+}
+
+.balloon .wind:nth-child(3n+2) {
+    transform: translate(250%, 30%);
+}
+
+.balloon .wind:nth-child(3n+3) {
+    transform: translate(450%, -30%);
+}
+  
+@keyframes pumping-balloon {
+    0%   {transform: scale(0.2);}
+    25%  {transform: scale(0.4);}
+    50%  {transform: scale(0.4);}
+    60%  {transform: scale(0.6);}
+    75%  {transform: scale(0.6);}
+    85%  {transform: scale(0.8);}
+    95%  {transform: scale(0.8);}
+    100% {transform: scale(1);}
+}
