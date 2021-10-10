@@ -16,6 +16,7 @@ import Fan from "./pages/Fan/Fan"
 import Watch from "./pages/Watch/Watch"
 import Pressure from "./pages/Pressure/Pressure"
 import Pick from "./pages/Pick/Pick"
+import Sour from "./pages/Sour/Sour"
 
 function App() {
 
@@ -62,7 +63,7 @@ function App() {
     },
     {
       "title": "SOUR",
-      "url": ""
+      "url": "/sour"
     },
     {
       "title": "STUCK",
@@ -181,6 +182,9 @@ function App() {
             </Route>
             <Route path="/pick">
               <Pick/>
+            </Route>
+            <Route path="/sour">
+              <Sour/>
             </Route>
             <Route path="/">
               <ol>

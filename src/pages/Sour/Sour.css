@@ -1,0 +1,145 @@
+.sour-cocktail {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.cup {
+    position: absolute;
+    box-sizing: border-box;
+    width: 200px;
+    height: 300px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.cup::after {
+    content: '';
+    position: absolute;
+    background: transparent;
+    background-image: linear-gradient(180deg,  white, rgb(239, 163, 0), rgb(249, 216, 149));
+    width: 100%;
+    height: 94%;
+    bottom: 20px;
+    animation: drink-cocktail 600s linear forwards;
+}
+
+.cup::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    filter: blur(40px);
+}
+
+.lemon {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    transform: translate(-70%, -100%);
+}
+
+.lemon::before {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    width: 140px;
+    height: 140px;
+    background-color: orange;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    border-radius: 50%;
+    transform: translate(2%, 2%);
+}
+
+.lemon::after {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    border-radius: 50%;
+    transform: translate(200%, 200%);
+}
+
+.lemon-cross-section {
+    border-left: 5px solid white;
+    height: 130px;
+    transform: translate(-1950%, -115%);
+}
+
+.sour-cocktail .lemon-cross-section:nth-child(3n+1) {
+    transform: translate(-2050%, -115%) rotate(60deg);
+}
+
+.sour-cocktail .lemon-cross-section:nth-child(3n+2) {
+    transform: translate(-2050%, -115%) rotate(-60deg);
+}
+
+.ice {
+    position: absolute;
+    box-sizing: border-box;
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10%;
+    transform: translate(50%, 85%) rotate(10deg);
+}
+
+.sour-cocktail .ice:nth-child(2n+1) {
+    transform: translate(45%, -30%) rotate(30deg);
+}
+
+.cherry-stick {
+    position: absolute;
+    box-sizing: border-box;
+    width: 90px;
+    height: 250px;
+    border-left: 5px solid silver;
+    transform: translate(45%, -43%) rotate(90deg);
+}
+
+.cherry-stick::before {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    transform: translate(-50%, 150%);
+}
+
+.cherry-stick::after {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    transform: translate(-50%, 250%);
+}
+
+@keyframes drink-cocktail {
+    from { height: 94% }
+    to { height: 2% }
+}
