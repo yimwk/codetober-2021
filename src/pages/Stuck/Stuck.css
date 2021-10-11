@@ -1,0 +1,114 @@
+.prison {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.prison-bars {
+    position: absolute;
+    box-sizing: border-box;
+    width: 600px;
+    height: 600px;
+    background: repeating-linear-gradient(90deg, transparent, transparent 20px, transparent 20px, grey 25px);
+    border-style: solid;
+    border-width: 5px;
+    border-color: grey;
+}
+
+.prisoner {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: bottom;
+  animation: prisoner-lie-down 1s linear forwards;
+  animation-delay: 10s
+}
+
+.prisoner-head {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 50%;
+}
+
+.prisoner-body {
+  position: absolute;
+  box-sizing: border-box;
+  width: 50px;
+  height: 150px;
+  border-left: 5px solid black;
+  transform: translate(45%, 83%);
+}
+
+.prisoner-limb {
+  position: absolute;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  border-left: 5px solid black;
+}
+
+.prisoner-left-hand {
+  transform: translate(0%, 140%) rotate(-45deg);
+}
+
+.prisoner-right-hand {
+  transform: translate(60%, 200%) rotate(45deg);
+}
+
+.prisoner-right-leg {
+  transform: translate(70%, 400%) rotate(-45deg);
+}
+
+.prisoner-left-leg {
+  transform: translate(0%, 450%) rotate(45deg);
+}
+
+.prisoner-blood {
+  position: absolute;
+  box-sizing: border-box;
+  border-top: 5px solid red;
+  transform: translate(50%, 40%);
+  animation: prisoner-blood-flow 1s linear forwards;
+  animation-delay: 11s;
+}
+
+.floor-blood {
+  position: absolute;
+  box-sizing: border-box;
+  border-left: 5px solid red;
+  transform: translate(1000%, 50%);
+  animation: floor-blood-flow 10s linear forwards;
+  animation-delay: 12s;
+}
+
+
+@keyframes prisoner-lie-down {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(90deg); }
+}
+
+@keyframes prisoner-blood-flow {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 50px;
+  }
+}
+
+@keyframes floor-blood-flow {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 450px;
+  }
+}

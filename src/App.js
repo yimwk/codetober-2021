@@ -17,6 +17,7 @@ import Watch from "./pages/Watch/Watch"
 import Pressure from "./pages/Pressure/Pressure"
 import Pick from "./pages/Pick/Pick"
 import Sour from "./pages/Sour/Sour"
+import Stuck from "./pages/Stuck/Stuck"
 
 function App() {
 
@@ -67,7 +68,7 @@ function App() {
     },
     {
       "title": "STUCK",
-      "url": ""
+      "url": "/stuck"
     },
     {
       "title": "ROOF",
@@ -185,6 +186,9 @@ function App() {
             </Route>
             <Route path="/sour">
               <Sour/>
+            </Route>
+            <Route path="/stuck">
+              <Stuck/>
             </Route>
             <Route path="/">
               <ol>
