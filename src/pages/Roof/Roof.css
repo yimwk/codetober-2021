@@ -1,0 +1,32 @@
+.house-container {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.house {   
+  height: 300px;
+  width: 400px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: grey;
+  transform: translate(0%, 30%);
+}
+
+.roof {
+  position: absolute;
+  box-sizing: border-box;
+  width: 350px;
+  height: 350px;
+  border-left: 5px solid grey;
+}
+
+.right-roof {
+  transform: translate(70%, -75%) rotate(-45deg);
+}
+
+.left-roof {
+  transform: translate(0%, -5%) rotate(45deg);
+}
