@@ -19,6 +19,7 @@ import Pick from "./pages/Pick/Pick"
 import Sour from "./pages/Sour/Sour"
 import Stuck from "./pages/Stuck/Stuck"
 import Roof from "./pages/Roof/Roof"
+import Tick from "./pages/Tick/Tick"
 
 function App() {
 
@@ -77,7 +78,7 @@ function App() {
     },
     {
       "title": "TICK",
-      "url": ""
+      "url": "/tick"
     },
     {
       "title": "HELMET",
@@ -193,6 +194,9 @@ function App() {
             </Route>
             <Route path="/roof">
               <Roof/>
+            </Route>
+            <Route path="/tick">
+              <Tick/>
             </Route>
             <Route path="/">
               <ol>
