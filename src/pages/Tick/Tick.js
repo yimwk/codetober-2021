@@ -21,6 +21,14 @@ class Tick extends React.Component {
             "valid": false
         },
         {
+            "text": "CON9lAN7FIRM",
+            "valid": false
+        },
+        {
+            "text": "ALEX",
+            "valid": false
+        },
+        {
             "text": "TEMPORARY",
             "valid": true
         },
@@ -30,6 +38,14 @@ class Tick extends React.Component {
         },
         {
             "text": "MANUAL",
+            "valid": true
+        },
+        {
+            "text": "CONFIRM",
+            "valid": true
+        },
+        {
+            "text": "ALEXA",
             "valid": true
         }];
     }
