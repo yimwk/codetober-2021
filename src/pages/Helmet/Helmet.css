@@ -1,0 +1,78 @@
+.squid-game {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 100px;
+}
+
+.helmet {
+  background-color: rgb(14, 14, 14);
+  box-sizing: border-box;
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.helmet-horizontal-bar {
+  background-color: rgb(10, 10, 10);
+  box-sizing: border-box;
+  border-radius: 20%;
+  width: 250px;
+  height: 15px;
+  transform: translate(0px, 150px);
+}
+
+.helmet-vertical-bar {
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(10, 10, 10);
+  border-radius: 10%;
+  background-color: transparent;
+  box-sizing: border-box;
+  width: 30px;
+  height: 135px;
+  transform: translate(110px, 150px);
+}
+
+.helmet-square {
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+  background-color: transparent;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  transform: translate(75px, -120px);
+}
+
+.helmet-triangle {
+  width:0;
+  border-bottom:solid 95px white;
+  border-right:solid 70px transparent;
+  border-left:solid 70px transparent;
+  transform: translate(60px, -120px);
+}
+
+.helmet-triangle:after {
+    content: "";
+    position: absolute;
+    width:0;
+    border-bottom:solid 70px rgb(14, 14, 14);
+    border-right:solid 50px transparent;
+    border-left:solid 50px transparent;
+    transform: translate(-50px, 15px);
+}
+
+.helmet-circle {
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+  border-radius: 50%;
+  background-color: transparent;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  transform: translate(75px, -120px);
+}
