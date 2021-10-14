@@ -21,7 +21,7 @@ class Tick extends React.Component {
             "valid": false
         },
         {
-            "text": "CON9lAN7FIRM",
+            "text": "CON9LAN7FIRM",
             "valid": false
         },
         {
