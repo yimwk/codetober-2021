@@ -1,3 +1,183 @@
+.red-hood {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.batman-symbol {
+  position: absolute;
+}
+
+.batman-symbol-wing {
+  position: absolute;
+  background-color: rgb(152, 48, 59);  
+  box-sizing: border-box;
+  width: 350px;
+  height: 150px;
+}
+
+.batman-symbol-wing-left {
+  transform: translate(-350px, -100px) rotate(30deg);
+}
+
+.batman-symbol-wing-right {
+  transform: translate(0px, -100px) rotate(-30deg);
+}
+
+.batman-symbol-tail {
+  position: absolute;
+  background-color: rgb(152, 48, 59);  
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  transform: translate(-80px, 15px) rotate(45deg);
+}
+
+.batman-symbol-thorn {
+  position: absolute;
+  background-color: rgb(152, 48, 59);  
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+}
+
+.batman-symbol-thorn-left-end {
+  transform: translate(-350px, -70px);
+}
+
+.batman-symbol-thorn-left-middle {
+  transform: translate(-150px, 50px);
+}
+
+.batman-symbol-thorn-right-end {
+  transform: translate(300px, -70px);
+}
+
+.batman-symbol-thorn-right-middle {
+  transform: translate(70px, 70px);
+}
+
+.batman-symbol-head {
+  position: absolute;
+  background-color: rgb(152, 48, 59);  
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  transform: translate(-25px, -35px);
+}
+
+.batman-symbol-ear {
+  position: absolute;
+  background-color: rgb(152, 48, 59);  
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  transform: translate(-37px, -35px) rotate(35deg);
+}
+
+.batman-symbol-left-ear {
+  transform: translate(-37px, -35px) rotate(35deg);
+}
+
+.batman-symbol-right-ear {
+  transform: translate(-14px, -35px) rotate(-35deg);
+}
+
+
+.red-hood-helmet {
+  animation: red-hood-appear 0.05s linear forwards;
+  position: absolute;
+  background-image: linear-gradient(90deg, rgb(152, 48, 59), rgb(152, 48, 59), rgb(248, 184, 146), rgb(152, 48, 59), rgb(152, 48, 59));
+  box-sizing: border-box;
+  width: 350px;
+  height: 500px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 60%;
+}
+
+.red-hood-eye {
+  position: absolute;
+  background-color: white;
+  box-sizing: border-box;
+  width: 100px;
+  height: 20px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 70%;
+  border-bottom-right-radius: 70%;
+  border-style: solid;
+  border-color: black;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+}
+
+.red-hood-eye-left {
+  border-left-width: 10px;
+  border-right-width: 5px;
+  transform: translate(70px, 100px) rotate(15deg);
+}
+
+.red-hood-eye-right {
+  border-right-width: 10px;
+  border-left-width: 5px;
+  transform: translate(180px, 100px) rotate(-15deg);
+}
+
+.red-hood-helmet-top-vertical-bar {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100px;
+  height: 300px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 5px;
+}
+
+.red-hood-helmet-top-vertical-bar-left {
+  border-right-color: black;
+}
+
+.red-hood-helmet-top-vertical-bar-right {
+  border-left-color: black;
+  transform: translate(250px, 0px)
+}
+
+.red-hood-helmet-bottom-vertical-bar {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100px;
+  height: 200px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 5px;
+}
+
+.red-hood-helmet-bottom-vertical-bar-left {
+  border-right-color: black;
+  transform: translate(2px, 280px) rotate(-15deg)
+}
+
+.red-hood-helmet-bottom-vertical-bar-right {
+  border-left-color: black;
+  transform: translate(248px, 280px) rotate(15deg)
+}
+
+.red-hood-helmet-top-horizontal-bar {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: black;
+  border-width: 5px;
+  transform: translate(125px, 460px);
+}
+
 .squid-game {
   height: 600px;
   display: flex;
@@ -7,7 +187,7 @@
   column-gap: 100px;
 }
 
-.helmet {
+.squid-game-helmet {
   background-color: rgb(14, 14, 14);
   box-sizing: border-box;
   width: 250px;
@@ -15,7 +195,7 @@
   border-radius: 50%;
 }
 
-.helmet-horizontal-bar {
+.squid-game-helmet-horizontal-bar {
   background-color: rgb(10, 10, 10);
   box-sizing: border-box;
   border-radius: 20%;
@@ -24,7 +204,7 @@
   transform: translate(0px, 150px);
 }
 
-.helmet-vertical-bar {
+.squid-game-helmet-vertical-bar {
   border-style: solid;
   border-width: 10px;
   border-color: rgb(10, 10, 10);
@@ -36,7 +216,7 @@
   transform: translate(110px, 150px);
 }
 
-.helmet-square {
+.squid-game-helmet-square {
   border-style: solid;
   border-width: 10px;
   border-color: white;
@@ -47,7 +227,7 @@
   transform: translate(75px, -120px);
 }
 
-.helmet-triangle {
+.squid-game-helmet-triangle {
   width:0;
   border-bottom:solid 95px white;
   border-right:solid 70px transparent;
@@ -55,7 +235,7 @@
   transform: translate(60px, -120px);
 }
 
-.helmet-triangle:after {
+.squid-game-helmet-triangle:after {
     content: "";
     position: absolute;
     width:0;
@@ -65,7 +245,7 @@
     transform: translate(-50px, 15px);
 }
 
-.helmet-circle {
+.squid-game-helmet-circle {
   border-style: solid;
   border-width: 10px;
   border-color: white;
