@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/codetober-2021/static/css/main.725cc2e9.chunk.css",
-    "main.js": "/codetober-2021/static/js/main.53a0a1a1.chunk.js",
-    "main.js.map": "/codetober-2021/static/js/main.53a0a1a1.chunk.js.map",
-    "runtime-main.js": "/codetober-2021/static/js/runtime-main.10895018.js",
-    "runtime-main.js.map": "/codetober-2021/static/js/runtime-main.10895018.js.map",
-    "static/js/2.bb396253.chunk.js": "/codetober-2021/static/js/2.bb396253.chunk.js",
-    "static/js/2.bb396253.chunk.js.map": "/codetober-2021/static/js/2.bb396253.chunk.js.map",
-    "static/js/3.a5b9c31e.chunk.js": "/codetober-2021/static/js/3.a5b9c31e.chunk.js",
-    "static/js/3.a5b9c31e.chunk.js.map": "/codetober-2021/static/js/3.a5b9c31e.chunk.js.map",
+    "main.css": "/codetober-2021/static/css/main.68ed59c1.chunk.css",
+    "main.js": "/codetober-2021/static/js/main.9c24878e.chunk.js",
+    "main.js.map": "/codetober-2021/static/js/main.9c24878e.chunk.js.map",
+    "runtime-main.js": "/codetober-2021/static/js/runtime-main.3900262b.js",
+    "runtime-main.js.map": "/codetober-2021/static/js/runtime-main.3900262b.js.map",
+    "static/js/2.9367c29e.chunk.js": "/codetober-2021/static/js/2.9367c29e.chunk.js",
+    "static/js/2.9367c29e.chunk.js.map": "/codetober-2021/static/js/2.9367c29e.chunk.js.map",
+    "static/js/3.2270f076.chunk.js": "/codetober-2021/static/js/3.2270f076.chunk.js",
+    "static/js/3.2270f076.chunk.js.map": "/codetober-2021/static/js/3.2270f076.chunk.js.map",
     "index.html": "/codetober-2021/index.html",
-    "static/css/main.725cc2e9.chunk.css.map": "/codetober-2021/static/css/main.725cc2e9.chunk.css.map",
-    "static/js/2.bb396253.chunk.js.LICENSE.txt": "/codetober-2021/static/js/2.bb396253.chunk.js.LICENSE.txt",
+    "static/css/main.68ed59c1.chunk.css.map": "/codetober-2021/static/css/main.68ed59c1.chunk.css.map",
+    "static/js/2.9367c29e.chunk.js.LICENSE.txt": "/codetober-2021/static/js/2.9367c29e.chunk.js.LICENSE.txt",
     "static/media/Blastoise.2162b941.png": "/codetober-2021/static/media/Blastoise.2162b941.png",
     "static/media/Bulbasaur.5a7b0737.png": "/codetober-2021/static/media/Bulbasaur.5a7b0737.png",
     "static/media/Charmander.c1a2c4c9.png": "/codetober-2021/static/media/Charmander.c1a2c4c9.png",
@@ -31,9 +31,9 @@
     "static/media/heart.ead2aeee.png": "/codetober-2021/static/media/heart.ead2aeee.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.10895018.js",
-    "static/js/2.bb396253.chunk.js",
-    "static/css/main.725cc2e9.chunk.css",
-    "static/js/main.53a0a1a1.chunk.js"
+    "static/js/runtime-main.3900262b.js",
+    "static/js/2.9367c29e.chunk.js",
+    "static/css/main.68ed59c1.chunk.css",
+    "static/js/main.9c24878e.chunk.js"
   ]
 }
