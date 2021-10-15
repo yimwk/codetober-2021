@@ -21,6 +21,7 @@ import Stuck from "./pages/Stuck/Stuck"
 import Roof from "./pages/Roof/Roof"
 import Tick from "./pages/Tick/Tick"
 import Helmet from "./pages/Helmet/Helmet"
+import Compass from "./pages/Compass/Compass"
 
 function App() {
 
@@ -87,7 +88,7 @@ function App() {
     },
     {
       "title": "COMPASS",
-      "url": ""
+      "url": "/compass"
     },
     {
       "title": "COLLIDE",
@@ -201,6 +202,9 @@ function App() {
             </Route>
             <Route path="/helmet">
               <Helmet/>
+            </Route>
+            <Route path="/compass">
+              <Compass/>
             </Route>
             <Route path="/">
               <ol>

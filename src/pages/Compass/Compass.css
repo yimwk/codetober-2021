@@ -1,0 +1,56 @@
+.compass {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.compass-hand {
+    position: absolute;
+    width: 5px;
+    height: 145px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+
+.compass-red-hand {
+    background-color: red;
+    transform: translate(0px, -30px);
+}
+
+.compass-silver-hand {
+    background-color: silver;
+    transform: translate(0px, 100px) rotate(180deg);
+}
+  
+.compass-border {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    transform: translate(0%, 10%);
+}
+
+.compass-north {
+    position: absolute;
+    transform: translate(0px, -120px);
+}
+
+.compass-south {
+    position: absolute;
+    transform: translate(0px, 190px);
+}
+
+.compass-east {
+    position: absolute;
+    transform: translate(150px, 30px);
+}
+
+.compass-west {
+    position: absolute;
+    transform: translate(-150px, 30px);
+}
