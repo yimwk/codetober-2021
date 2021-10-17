@@ -23,6 +23,7 @@ import Tick from "./pages/Tick/Tick"
 import Helmet from "./pages/Helmet/Helmet"
 import Compass from "./pages/Compass/Compass"
 import Collide from "./pages/Collide/Collide"
+import Moon from "./pages/Moon/Moon"
 
 function App() {
 
@@ -97,7 +98,7 @@ function App() {
     },
     {
       "title": "MOON",
-      "url": ""
+      "url": "/moon"
     },
     {
       "title": "LOOP",
@@ -209,6 +210,9 @@ function App() {
             </Route>
             <Route path="/collide">
               <Collide/>
+            </Route>
+            <Route path="/moon">
+              <Moon/>
             </Route>
             <Route path="/">
               <ol>
