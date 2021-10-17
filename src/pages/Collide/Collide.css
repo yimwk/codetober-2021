@@ -1,0 +1,48 @@
+.collision-space {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collision-ball {
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.first-collision-ball {
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(red, orange, yellow);
+    transform: translate(-30px, 0px);
+    animation: first-collision-ball-move 5s linear forwards;
+}
+
+.second-collision-ball {
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(30deg, blue, green, white, blue, green, white);
+    transform: translate(100px, 0px);
+    animation: collision-ball-explode 1s linear forwards;
+    animation-delay: 5s;
+}
+
+@keyframes first-collision-ball-move {
+  0% {
+    transform: translate(-30px, 0px);
+  }
+  80% {
+    transform: translate(100px, 0px);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(5);
+  }
+}
+
+@keyframes collision-ball-explode {
+    100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}

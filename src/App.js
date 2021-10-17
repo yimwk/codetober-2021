@@ -22,6 +22,7 @@ import Roof from "./pages/Roof/Roof"
 import Tick from "./pages/Tick/Tick"
 import Helmet from "./pages/Helmet/Helmet"
 import Compass from "./pages/Compass/Compass"
+import Collide from "./pages/Collide/Collide"
 
 function App() {
 
@@ -92,7 +93,7 @@ function App() {
     },
     {
       "title": "COLLIDE",
-      "url": ""
+      "url": "/collide"
     },
     {
       "title": "MOON",
@@ -205,6 +206,9 @@ function App() {
             </Route>
             <Route path="/compass">
               <Compass/>
+            </Route>
+            <Route path="/collide">
+              <Collide/>
             </Route>
             <Route path="/">
               <ol>
