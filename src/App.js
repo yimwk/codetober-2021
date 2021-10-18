@@ -24,6 +24,7 @@ import Helmet from "./pages/Helmet/Helmet"
 import Compass from "./pages/Compass/Compass"
 import Collide from "./pages/Collide/Collide"
 import Moon from "./pages/Moon/Moon"
+import Loop from "./pages/Loop/Loop"
 
 function App() {
 
@@ -102,7 +103,7 @@ function App() {
     },
     {
       "title": "LOOP",
-      "url": ""
+      "url": "/loop"
     },
     {
       "title": "SPROUT",
@@ -213,6 +214,9 @@ function App() {
             </Route>
             <Route path="/moon">
               <Moon/>
+            </Route>
+            <Route path="/loop">
+              <Loop/>
             </Route>
             <Route path="/">
               <ol>
