@@ -25,6 +25,7 @@ import Compass from "./pages/Compass/Compass"
 import Collide from "./pages/Collide/Collide"
 import Moon from "./pages/Moon/Moon"
 import Loop from "./pages/Loop/Loop"
+import Sprout from "./pages/Sprout/Sprout"
 
 function App() {
 
@@ -107,7 +108,7 @@ function App() {
     },
     {
       "title": "SPROUT",
-      "url": ""
+      "url": "/sprout"
     },
     {
       "title": "FUZZY",
@@ -217,6 +218,9 @@ function App() {
             </Route>
             <Route path="/loop">
               <Loop/>
+            </Route>
+            <Route path="/sprout">
+              <Sprout/>
             </Route>
             <Route path="/">
               <ol>
