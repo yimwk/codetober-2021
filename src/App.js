@@ -26,6 +26,7 @@ import Collide from "./pages/Collide/Collide"
 import Moon from "./pages/Moon/Moon"
 import Loop from "./pages/Loop/Loop"
 import Sprout from "./pages/Sprout/Sprout"
+import Fuzzy from "./pages/Fuzzy/Fuzzy"
 
 function App() {
 
@@ -112,7 +113,7 @@ function App() {
     },
     {
       "title": "FUZZY",
-      "url": ""
+      "url": "/fuzzy"
     },
     {
       "title": "OPEN",
@@ -221,6 +222,9 @@ function App() {
             </Route>
             <Route path="/sprout">
               <Sprout/>
+            </Route>
+            <Route path="/fuzzy">
+              <Fuzzy/>
             </Route>
             <Route path="/">
               <ol>
