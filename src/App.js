@@ -27,6 +27,7 @@ import Moon from "./pages/Moon/Moon"
 import Loop from "./pages/Loop/Loop"
 import Sprout from "./pages/Sprout/Sprout"
 import Fuzzy from "./pages/Fuzzy/Fuzzy"
+import Open from "./pages/Open/Open"
 
 function App() {
 
@@ -117,7 +118,7 @@ function App() {
     },
     {
       "title": "OPEN",
-      "url": ""
+      "url": "/open"
     },
     {
       "title": "LEAK",
@@ -225,6 +226,9 @@ function App() {
             </Route>
             <Route path="/fuzzy">
               <Fuzzy/>
+            </Route>
+            <Route path="/open">
+              <Open/>
             </Route>
             <Route path="/">
               <ol>

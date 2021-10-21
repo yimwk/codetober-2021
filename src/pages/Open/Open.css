@@ -1,0 +1,33 @@
+.open-container {
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.github-user-info {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.github-repo-info {
+    width: 500px;
+    border-style: solid;
+    border-color: white;
+    display:inline-block;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 30%;
+    color: white;
+}
+
+.github-repo-info:hover {
+    background-color: white;
+    color: #282c34;
+}
