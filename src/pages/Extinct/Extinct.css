@@ -1,0 +1,146 @@
+.dinosaur-frame {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dinosaur-head {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    background-color: green;
+    transform: translate(0px, -150px);
+}
+
+.dinosaur-bottom-jaw {
+    position: absolute;
+    width: 175px;
+    height: 25px;
+    background-color: green;
+    transform: translate(-10px, -50px);
+}
+
+.dinosaur-body {
+    position: absolute;
+    width: 130px;
+    height: 300px;
+    background-color: green;
+    transform: translate(-35px, 0px);
+}
+
+.dinosaur-back {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background-color: green;
+    transform: translate(-85px, 25px) rotate(30deg);
+}
+
+.dinosaur-tail {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    background-color: green;
+    transform: translate(-200px, 70px) rotate(30deg);
+    border-radius: 50%;
+}
+
+.dinosaur-leg {
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    background-color: green;
+}
+
+.dinosaur-leg-right {
+    transform: translate(20px, 170px);
+}
+
+.dinosaur-leg-left {
+    transform: translate(-90px, 170px);
+}
+
+.dinosaur-feet {
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    background-color: green;
+}
+
+.dinosaur-feet-right {
+    transform: translate(35px, 200px);
+}
+
+.dinosaur-feet-left {
+    transform: translate(-75px, 200px);
+}
+
+.dinosaur-hand {
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    background-color: green;
+    transform: translate(30px, 0px);
+}
+
+.dinosaur-palm {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    background-color: green;
+    transform: translate(50px, 10px);
+}
+
+.dinosaur-eye {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    transform: translate(-25px, -150px);
+}
+
+.dinosaur-frame.dinosaur-jump{
+    animation: dinosaur-jump 0.5s forwards;
+}
+
+.rawr {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(300px, -200px);
+    text-align: center;
+    color: green;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+@keyframes dinosaur-jump {
+  0%  { transform: translate(0px, 0px)  }
+  50% { transform: translate(0px, -100px) }
+  100%{ transform: translate(0px, 0px) }
+}
+
+.dinosaur-jump-btn {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.dinosaur-jump-btn:hover {
+  background-color: white;
+  color: green;
+}

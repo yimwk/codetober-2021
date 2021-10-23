@@ -29,6 +29,7 @@ import Sprout from "./pages/Sprout/Sprout"
 import Fuzzy from "./pages/Fuzzy/Fuzzy"
 import Open from "./pages/Open/Open"
 import Leak from "./pages/Leak/Leak"
+import Extinct from "./pages/Extinct/Extinct"
 
 function App() {
 
@@ -127,7 +128,7 @@ function App() {
     },
     {
       "title": "EXTINCT",
-      "url": ""
+      "url": "/extinct"
     },
     {
       "title": "SPLAT",
@@ -233,6 +234,9 @@ function App() {
             </Route>
             <Route path="/leak">
               <Leak/>
+            </Route>
+            <Route path="/extinct">
+              <Extinct/>
             </Route>
             <Route path="/">
               <ol>
