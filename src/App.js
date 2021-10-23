@@ -28,6 +28,7 @@ import Loop from "./pages/Loop/Loop"
 import Sprout from "./pages/Sprout/Sprout"
 import Fuzzy from "./pages/Fuzzy/Fuzzy"
 import Open from "./pages/Open/Open"
+import Leak from "./pages/Leak/Leak"
 
 function App() {
 
@@ -122,7 +123,7 @@ function App() {
     },
     {
       "title": "LEAK",
-      "url": ""
+      "url": "/leak"
     },
     {
       "title": "EXTINCT",
@@ -229,6 +230,9 @@ function App() {
             </Route>
             <Route path="/open">
               <Open/>
+            </Route>
+            <Route path="/leak">
+              <Leak/>
             </Route>
             <Route path="/">
               <ol>
