@@ -1,0 +1,58 @@
+.bird-frame {
+    height: 500px;
+    display: absolute;
+    animation: bird-flying 10s linear forwards;
+}
+
+.bird-wing-left {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform: translate(-110px, 100px);
+}
+
+.bird-wing-right {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform: translate(0px, 100px);
+}
+
+.bird-leg {
+    position: absolute;
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    transform: translate(-10px, 165px);
+}
+
+@keyframes bird-flying {
+    0%   {transform: scale(0);}
+    100% {transform: scale(1.5);}
+}
+
+.bird-shit {
+    position: absolute;
+    height: 50px;
+    width: 10px;
+    background-color: rgb(206, 207, 202);
+    border-radius: 100%;
+}
