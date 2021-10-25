@@ -1,0 +1,20 @@
+.computer-frame {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.computer-connection {
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    border-style: dashed;
+    border-color: white;
+    border-spacing: 10px;
+    border-bottom-color: transparent;
+    transform: translate(0px, 50px);
+}

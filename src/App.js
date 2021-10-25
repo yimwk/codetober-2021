@@ -31,6 +31,7 @@ import Open from "./pages/Open/Open"
 import Leak from "./pages/Leak/Leak"
 import Extinct from "./pages/Extinct/Extinct"
 import Splat from "./pages/Splat/Splat"
+import Connect from "./pages/Connect/Connect"
 
 function App() {
 
@@ -137,7 +138,7 @@ function App() {
     },
     {
       "title": "CONNECT",
-      "url": ""
+      "url": "/connect"
     },
     {
       "title": "SPARK",
@@ -241,6 +242,9 @@ function App() {
             </Route>
             <Route path="/splat">
               <Splat/>
+            </Route>
+            <Route path="/connect">
+              <Connect/>
             </Route>
             <Route path="/">
               <ol>
