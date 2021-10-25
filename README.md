@@ -7,3 +7,7 @@ Refer here for more information: https://inktober.com/rules
 # Credits
 
 Icons for Pokemon from: https://icon-icons.com/search/icons/pokemon
+
+# Github Pages
+
+Link to Github Pages: https://yimwk.github.io/codetober-2021/#/
