@@ -1,0 +1,19 @@
+.shooting-star {
+    position: absolute;
+    width: 2px;
+    background-color: white;
+    transform-origin: top;
+    opacity: 0;
+}
+
+@keyframes shooting-star {
+    0% {
+        opacity: 1;
+        transform: scaleY(0);
+    }
+    
+    100% {
+        opacity: 0;
+        transform: scaleY(1) rotate(30deg);
+    }
+}

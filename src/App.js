@@ -32,6 +32,7 @@ import Leak from "./pages/Leak/Leak"
 import Extinct from "./pages/Extinct/Extinct"
 import Splat from "./pages/Splat/Splat"
 import Connect from "./pages/Connect/Connect"
+import Spark from "./pages/Spark/Spark"
 
 function App() {
 
@@ -142,7 +143,7 @@ function App() {
     },
     {
       "title": "SPARK",
-      "url": ""
+      "url": "/spark"
     },
     {
       "title": "CRISPY",
@@ -245,6 +246,9 @@ function App() {
             </Route>
             <Route path="/connect">
               <Connect/>
+            </Route>
+            <Route path="/spark">
+              <Spark/>
             </Route>
             <Route path="/">
               <ol>
