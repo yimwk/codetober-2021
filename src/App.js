@@ -33,6 +33,7 @@ import Extinct from "./pages/Extinct/Extinct"
 import Splat from "./pages/Splat/Splat"
 import Connect from "./pages/Connect/Connect"
 import Spark from "./pages/Spark/Spark"
+import Crispy from "./pages/Crispy/Crispy"
 
 function App() {
 
@@ -147,7 +148,7 @@ function App() {
     },
     {
       "title": "CRISPY",
-      "url": ""
+      "url": "/crispy"
     },
     {
       "title": "PATCH",
@@ -249,6 +250,9 @@ function App() {
             </Route>
             <Route path="/spark">
               <Spark/>
+            </Route>
+            <Route path="/crispy">
+              <Crispy/>
             </Route>
             <Route path="/">
               <ol>
