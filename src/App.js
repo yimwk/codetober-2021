@@ -34,6 +34,7 @@ import Splat from "./pages/Splat/Splat"
 import Connect from "./pages/Connect/Connect"
 import Spark from "./pages/Spark/Spark"
 import Crispy from "./pages/Crispy/Crispy"
+import Patch from "./pages/Patch/Patch"
 
 function App() {
 
@@ -152,7 +153,7 @@ function App() {
     },
     {
       "title": "PATCH",
-      "url": ""
+      "url": "/patch"
     },
     {
       "title": "SLITHER",
@@ -253,6 +254,9 @@ function App() {
             </Route>
             <Route path="/crispy">
               <Crispy/>
+            </Route>
+            <Route path="/patch">
+              <Patch/>
             </Route>
             <Route path="/">
               <ol>
