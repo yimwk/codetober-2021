@@ -1,0 +1,22 @@
+.snake-frame {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.snake {
+    position: absolute;
+    box-sizing: border-box;
+    width: 200px;
+    height: 20px;
+    background-image: linear-gradient(green, darkgreen, black);
+    border-radius: 30%;
+    transform: translateX(-700px);
+    animation: slithering 30s ease-in-out forwards;
+}
+
+@keyframes slithering {
+    0% { transform: translateX(-700px); }
+    100% { transform: translateX(650px); }  
+}
