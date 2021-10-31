@@ -36,6 +36,7 @@ import Spark from "./pages/Spark/Spark"
 import Crispy from "./pages/Crispy/Crispy"
 import Patch from "./pages/Patch/Patch"
 import Slither from "./pages/Slither/Slither"
+import Risk from "./pages/Risk/Risk"
 
 function App() {
 
@@ -162,7 +163,7 @@ function App() {
     },
     {
       "title": "RISK",
-      "url": ""
+      "url": "/risk"
     }
   ]
 
@@ -261,6 +262,9 @@ function App() {
             </Route>
             <Route path="/slither">
               <Slither/>
+            </Route>
+            <Route path="/risk">
+              <Risk/>
             </Route>
             <Route path="/">
               <ol>
