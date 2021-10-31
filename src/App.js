@@ -37,6 +37,7 @@ import Crispy from "./pages/Crispy/Crispy"
 import Patch from "./pages/Patch/Patch"
 import Slither from "./pages/Slither/Slither"
 import Risk from "./pages/Risk/Risk"
+import Bonus from "./pages/Bonus/Bonus"
 
 function App() {
 
@@ -266,6 +267,9 @@ function App() {
             <Route path="/risk">
               <Risk/>
             </Route>
+            <Route path="/bonus">
+              <Bonus/>
+            </Route>
             <Route path="/">
               <ol>
               {prompts.map(prompt => {
@@ -275,6 +279,7 @@ function App() {
                   return <li><Link to={prompt.url}>{prompt.title}</Link></li>;
               })}
               </ol>
+              <div><Link to="/bonus">BONUS CONTENT</Link></div>
             </Route>
           </Switch>
           <div>#inktober2021</div>
