@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/codetober-2021/static/css/main.ff24bd47.chunk.css",
-    "main.js": "/codetober-2021/static/js/main.0936fa56.chunk.js",
-    "main.js.map": "/codetober-2021/static/js/main.0936fa56.chunk.js.map",
+    "main.js": "/codetober-2021/static/js/main.a4a68128.chunk.js",
+    "main.js.map": "/codetober-2021/static/js/main.a4a68128.chunk.js.map",
     "runtime-main.js": "/codetober-2021/static/js/runtime-main.267e23b8.js",
     "runtime-main.js.map": "/codetober-2021/static/js/runtime-main.267e23b8.js.map",
     "static/js/2.dc454ac1.chunk.js": "/codetober-2021/static/js/2.dc454ac1.chunk.js",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.267e23b8.js",
     "static/js/2.dc454ac1.chunk.js",
     "static/css/main.ff24bd47.chunk.css",
-    "static/js/main.0936fa56.chunk.js"
+    "static/js/main.a4a68128.chunk.js"
   ]
 }
