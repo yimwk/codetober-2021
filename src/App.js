@@ -44,127 +44,158 @@ function App() {
   const prompts = [
     {
       "title": "CRYSTAL",
-      "url": "/crystal"
+      "url": "/crystal",
+      "component": Crystal
     },
     {
       "title": "SUIT",
-      "url": "/suit"
+      "url": "/suit",
+      "component": Suit
     },
     {
       "title": "VESSEL",
-      "url": "/vessel"
+      "url": "/vessel",
+      "component": Vessel
     },
     {
       "title": "KNOT",
-      "url": "/knot"
+      "url": "/knot",
+      "component": Knot
     },
     {
       "title": "RAVEN",
-      "url": "/raven"
+      "url": "/raven",
+      "component": Raven
     },
     {
       "title": "SPIRIT",
-      "url": "/spirit"
+      "url": "/spirit",
+      "component": Spirit
     },
     {
       "title": "FAN",
-      "url": "/fan"
+      "url": "/fan",
+      "component": Fan
     },
     {
       "title": "WATCH",
-      "url": "/watch"
+      "url": "/watch",
+      "component": Watch
     },
     {
       "title": "PRESSURE",
-      "url": "/pressure"
+      "url": "/pressure",
+      "component": Pressure
     },
     {
       "title": "PICK",
-      "url": "/pick"
+      "url": "/pick",
+      "component": Pick
     },
     {
       "title": "SOUR",
-      "url": "/sour"
+      "url": "/sour",
+      "component": Sour
     },
     {
       "title": "STUCK",
-      "url": "/stuck"
+      "url": "/stuck",
+      "component": Stuck
     },
     {
       "title": "ROOF",
-      "url": "/roof"
+      "url": "/roof",
+      "component": Roof
     },
     {
       "title": "TICK",
-      "url": "/tick"
+      "url": "/tick",
+      "component": Tick
     },
     {
       "title": "HELMET",
-      "url": "/helmet"
+      "url": "/helmet",
+      "component": Helmet
     },
     {
       "title": "COMPASS",
-      "url": "/compass"
+      "url": "/compass",
+      "component": Compass
     },
     {
       "title": "COLLIDE",
-      "url": "/collide"
+      "url": "/collide",
+      "component": Collide
     },
     {
       "title": "MOON",
-      "url": "/moon"
+      "url": "/moon",
+      "component": Moon
     },
     {
       "title": "LOOP",
-      "url": "/loop"
+      "url": "/loop",
+      "component": Loop
     },
     {
       "title": "SPROUT",
-      "url": "/sprout"
+      "url": "/sprout",
+      "component": Sprout
     },
     {
       "title": "FUZZY",
-      "url": "/fuzzy"
+      "url": "/fuzzy",
+      "component": Fuzzy
     },
     {
       "title": "OPEN",
-      "url": "/open"
+      "url": "/open",
+      "component": Open
     },
     {
       "title": "LEAK",
-      "url": "/leak"
+      "url": "/leak",
+      "component": Leak
     },
     {
       "title": "EXTINCT",
-      "url": "/extinct"
+      "url": "/extinct",
+      "component": Extinct
     },
     {
       "title": "SPLAT",
-      "url": "/splat"
+      "url": "/splat",
+      "component": Splat
     },
     {
       "title": "CONNECT",
-      "url": "/connect"
+      "url": "/connect",
+      "component": Connect
     },
     {
       "title": "SPARK",
-      "url": "/spark"
+      "url": "/spark",
+      "component": Spark
     },
     {
       "title": "CRISPY",
-      "url": "/crispy"
+      "url": "/crispy",
+      "component": Crispy
     },
     {
       "title": "PATCH",
-      "url": "/patch"
+      "url": "/patch",
+      "component": Patch
     },
     {
       "title": "SLITHER",
-      "url": "/slither"
+      "url": "/slither",
+      "component": Slither
     },
     {
       "title": "RISK",
-      "url": "/risk"
+      "url": "/risk",
+      "component": Risk
     }
   ]
 
@@ -174,110 +205,18 @@ function App() {
         <div className="App-title"><Link to="/">Codetober 2021</Link></div>
         <div className="App-body">
           <Switch>
-            <Route path="/crystal">
-              <Crystal/>
-            </Route>
-            <Route path="/suit">
-              <Suit/>
-            </Route>
-            <Route path="/vessel">
-              <Vessel/>
-            </Route>
-            <Route path="/knot">
-              <Knot/>
-            </Route>
-            <Route path="/raven">
-              <Raven/>
-            </Route>
-            <Route path="/spirit">
-              <Spirit/>
-            </Route>
-            <Route path="/fan">
-              <Fan/>
-            </Route>
-            <Route path="/watch">
-              <Watch/>
-            </Route>
-            <Route path="/pressure">
-              <Pressure/>
-            </Route>
-            <Route path="/pick">
-              <Pick/>
-            </Route>
-            <Route path="/sour">
-              <Sour/>
-            </Route>
-            <Route path="/stuck">
-              <Stuck/>
-            </Route>
-            <Route path="/roof">
-              <Roof/>
-            </Route>
-            <Route path="/tick">
-              <Tick/>
-            </Route>
-            <Route path="/helmet">
-              <Helmet/>
-            </Route>
-            <Route path="/compass">
-              <Compass/>
-            </Route>
-            <Route path="/collide">
-              <Collide/>
-            </Route>
-            <Route path="/moon">
-              <Moon/>
-            </Route>
-            <Route path="/loop">
-              <Loop/>
-            </Route>
-            <Route path="/sprout">
-              <Sprout/>
-            </Route>
-            <Route path="/fuzzy">
-              <Fuzzy/>
-            </Route>
-            <Route path="/open">
-              <Open/>
-            </Route>
-            <Route path="/leak">
-              <Leak/>
-            </Route>
-            <Route path="/extinct">
-              <Extinct/>
-            </Route>
-            <Route path="/splat">
-              <Splat/>
-            </Route>
-            <Route path="/connect">
-              <Connect/>
-            </Route>
-            <Route path="/spark">
-              <Spark/>
-            </Route>
-            <Route path="/crispy">
-              <Crispy/>
-            </Route>
-            <Route path="/patch">
-              <Patch/>
-            </Route>
-            <Route path="/slither">
-              <Slither/>
-            </Route>
-            <Route path="/risk">
-              <Risk/>
-            </Route>
-            <Route path="/bonus">
-              <Bonus/>
-            </Route>
+            {prompts.map(prompt => {
+              if (prompt.url === "") {
+                return <li>{prompt.title}</li>;
+              }
+              return <Route path={`/${prompt.title}`} component={prompt.component} />;
+            })}
+            <Route path="/bonus" component={Bonus} />
             <Route path="/">
               <ol>
-              {prompts.map(prompt => {
-                  if (prompt.url === "") {
-                    return <li>{prompt.title}</li>;
-                  }
+                {prompts.map(prompt => {
                   return <li><Link to={prompt.url}>{prompt.title}</Link></li>;
-              })}
+                })}
               </ol>
               <div><Link to="/bonus">BONUS CONTENT</Link></div>
             </Route>
